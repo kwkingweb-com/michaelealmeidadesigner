@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0b0b">
+  <title>Michaele Almeida | Design de Sobrancelhas</title>
+  <meta name="description" content="Design personalizado, design com henna e buço com Michaele Almeida. Conheça os trabalhos e solicite seu horário de atendimento.">
+  <link rel="icon" type="image/webp" href="img/logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M7 3v4m10-4v4M3 11h18m-13 5h2m4 0h2"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 11.5a9 9 0 0 1-13.2 8L3 21l1.4-4.7A9 9 0 1 1 21 11.5Z"/><path d="M8 7.5c.7 4.5 3.3 7.1 7.8 8l1.1-2.3-2.5-1.2-1 1a8.8 8.8 0 0 1-3.3-3.2l1-1L10 6.5Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+    <symbol id="i-sunset" viewBox="0 0 24 24"><path d="M2 17h20M3 21h18M7 17a5 5 0 0 1 10 0M12 3v5m-2-2 2 2 2-2M4 10l2 2m14-2-2 2"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Michaele Almeida, início">
+        <img src="img/logo.webp" alt="" width="56" height="56">
+        <span class="brand-name">Michaele Almeida<small>Design de sobrancelhas</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#experiencia">Experiência</a><a href="#servicos">Serviços</a><a href="#resultados">Resultados</a>
+        <a class="button button-dark button-small" href="#agendamento">Agendar horário</a>
+      </nav>
+      <button class="icon-button menu-toggle" id="openMenu" type="button" aria-label="Abrir menu" aria-haspopup="dialog" aria-controls="mobileMenu" aria-expanded="false"><svg class="icon"><use href="#i-menu"/></svg></button>
+    </div>
+  </header>
+
+  <dialog id="mobileMenu" class="menu-dialog" aria-labelledby="menuTitle">
+    <div class="menu-heading"><p id="menuTitle">Michaele Almeida</p><button class="icon-button" id="closeMenu" type="button" aria-label="Fechar menu"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <nav class="menu-links" aria-label="Navegação no celular">
+      <a href="#inicio">Início <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#experiencia">Experiência <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#servicos">Serviços <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a href="#resultados">Resultados <svg class="icon"><use href="#i-arrow"/></svg></a>
+      <a class="button button-gold" href="#agendamento"><svg class="icon"><use href="#i-calendar"/></svg> Agendar meu horário</a>
+    </nav>
+    <a class="menu-instagram" data-instagram href="https://www.instagram.com/_michaelealmeidadesigner_/" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-instagram"/></svg> Conheça o Instagram</a>
+  </dialog>
+
+  <main id="conteudo">
+    <section id="inicio" class="hero" aria-labelledby="heroTitle">
+      <picture class="hero-image">
+        <source media="(orientation: landscape)" srcset="img/hero-desktop.webp" width="1672" height="941">
+        <img src="img/hero-mobile.webp" alt="Arte de beleza com o olhar em destaque e detalhes dourados" width="940" height="1672" fetchpriority="high" decoding="async">
+      </picture>
+      <div class="hero-shade"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span></span> Michaele Almeida • Designer</p>
+          <h1 id="heroTitle">Realce seu olhar com <em>beleza</em> e personalidade.</h1>
+          <p class="hero-description">Design personalizado, henna e buço. Um cuidado pensado para valorizar seus traços.</p>
+          <a href="#agendamento" class="button button-gold hero-button"><svg class="icon"><use href="#i-calendar"/></svg> Agendar meu horário <svg class="icon"><use href="#i-arrow"/></svg></a>
+          <p class="hero-note">Um cuidado pensado para você.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="specialties-strip" aria-label="Especialidades">
+      <span>✧ Design personalizado</span><span>✧ Henna</span><span>✧ Buço</span><span class="strip-desktop">✧ Atendimento com hora marcada</span>
+    </div>
+
+    <section id="experiencia" class="section about-section" aria-labelledby="aboutTitle">
+      <div class="container about-grid">
+        <figure class="about-visual"><img src="img/trabalhos/resultado-02.webp" alt="Detalhe de um trabalho de design de sobrancelhas" width="1080" height="1439" loading="lazy" decoding="async"></figure>
+        <div class="about-copy">
+          <div class="about-heading"><p class="eyebrow">Michaele Almeida</p><h2 id="aboutTitle">Seu olhar com mais <em>presença.</em></h2></div>
+          <p>Cada atendimento é pensado para respeitar seus traços, sua preferência e o resultado que você deseja para o dia a dia.</p>
+          <p>Do design personalizado à henna, cada detalhe busca um resultado bonito e harmonioso. Complete seu cuidado com o serviço de buço.</p>
+          <a class="text-link about-link" data-instagram href="https://www.instagram.com/_michaelealmeidadesigner_/" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-instagram"/></svg> Conheça meu trabalho <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" class="section services-section" aria-labelledby="servicesTitle">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Especialidades</p><h2 id="servicesTitle">O cuidado<br class="mobile-break"> Michaele Almeida</h2><p>Escolha o cuidado que combina com você.</p></div>
+        <div class="services-grid">
+          <article class="service-card">
+            <img src="img/trabalhos/resultado-02-480.webp" alt="Detalhe do design de sobrancelhas" width="480" height="640" loading="lazy" decoding="async">
+            <div class="service-copy"><span class="service-number" aria-hidden="true">01.</span><h3>Design personalizado</h3><p>Desenho das sobrancelhas pensado para valorizar seus traços e respeitar o formato do rosto.</p><a class="service-link" href="#agendamento" data-service="Design personalizado">Agendar serviço <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+          </article>
+          <article class="service-card">
+            <img src="img/trabalhos/resultado-04-480.webp" alt="Detalhe de sobrancelhas com desenho marcado" width="480" height="480" loading="lazy" decoding="async">
+            <div class="service-copy"><span class="service-number" aria-hidden="true">02.</span><h3>Design com henna</h3><p>Design com aplicação de henna para realçar o desenho e preencher visualmente as sobrancelhas.</p><a class="service-link" href="#agendamento" data-service="Design com henna">Agendar serviço <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+          </article>
+          <article class="service-card service-buco">
+            <div class="service-visual" aria-hidden="true"><svg viewBox="0 0 160 190" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="80" cy="95" r="65" class="beauty-circle"/><path d="M27 104c20-3 31-23 44-14l9 5 9-5c13-9 24 11 44 14-20 5-28 26-53 26s-33-21-53-26Z"/><path d="M27 104c18 5 29-3 41-1 9 5 15 5 24 0 12-2 23 6 41 1M63 68c5 3 9 4 17 4s12-1 17-4M115 45v14m-7-7h14M41 139v10m-5-5h10"/></svg></div>
+            <div class="service-copy"><span class="service-number" aria-hidden="true">03.</span><h3>Buço</h3><p>Remoção dos pelos acima dos lábios para um acabamento delicado e um cuidado completo.</p><a class="service-link" href="#agendamento" data-service="Buço">Agendar serviço <svg class="icon"><use href="#i-arrow"/></svg></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultados" class="section results-section" aria-labelledby="resultsTitle">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Cada olhar, um cuidado</p><h2 id="resultsTitle">Resultados que<br> valorizam você</h2><p>Toque nas fotos para ver os detalhes.</p></div>
+        <div class="gallery-grid" id="galleryGrid">
+          <button type="button" class="gallery-item" data-gallery-index="0" data-full="img/trabalhos/resultado-01.webp" aria-label="Ampliar foto 1: trabalho de sobrancelhas"><img src="img/trabalhos/resultado-01-480.webp" alt="Trabalho de sobrancelhas 01" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="1" data-full="img/trabalhos/resultado-02.webp" aria-label="Ampliar foto 2: trabalho de sobrancelhas"><img src="img/trabalhos/resultado-02-480.webp" alt="Trabalho de sobrancelhas 02" width="480" height="640" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="2" data-full="img/trabalhos/resultado-03.webp" aria-label="Ampliar foto 3: trabalho de sobrancelhas"><img src="img/trabalhos/resultado-03-480.webp" alt="Trabalho de sobrancelhas 03" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="3" data-full="img/trabalhos/resultado-04.webp" aria-label="Ampliar foto 4: trabalho de sobrancelhas"><img src="img/trabalhos/resultado-04-480.webp" alt="Trabalho de sobrancelhas 04" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="4" data-full="img/trabalhos/resultado-05.webp" aria-label="Ampliar foto 5: trabalho de sobrancelhas" hidden><img src="img/trabalhos/resultado-05-480.webp" alt="Trabalho de sobrancelhas 05" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="5" data-full="img/trabalhos/resultado-06.webp" aria-label="Ampliar foto 6: trabalho de sobrancelhas" hidden><img src="img/trabalhos/resultado-06-480.webp" alt="Trabalho de sobrancelhas 06" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="6" data-full="img/trabalhos/resultado-07.webp" aria-label="Ampliar foto 7: trabalho de sobrancelhas" hidden><img src="img/trabalhos/resultado-07-480.webp" alt="Trabalho de sobrancelhas 07" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="7" data-full="img/trabalhos/resultado-08.webp" aria-label="Ampliar foto 8: trabalho de sobrancelhas" hidden><img src="img/trabalhos/resultado-08-480.webp" alt="Trabalho de sobrancelhas 08" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="8" data-full="img/trabalhos/resultado-09.webp" aria-label="Ampliar foto 9: trabalho de sobrancelhas" hidden><img src="img/trabalhos/resultado-09-480.webp" alt="Trabalho de sobrancelhas 09" width="480" height="600" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+          <button type="button" class="gallery-item" data-gallery-index="9" data-full="img/trabalhos/resultado-10.webp" aria-label="Ampliar foto 10: trabalho de sobrancelhas" hidden><img src="img/trabalhos/resultado-10-480.webp" alt="Trabalho de sobrancelhas 10" width="480" height="480" loading="lazy" decoding="async"><span class="expand-icon" aria-hidden="true"><svg class="icon"><use href="#i-expand"/></svg></span></button>
+        </div>
+        <button type="button" id="toggleGallery" class="button gallery-toggle" aria-expanded="false" aria-controls="galleryGrid">Ver mais 6 fotos</button>
+        <a class="button button-dark results-button" data-instagram href="https://www.instagram.com/_michaelealmeidadesigner_/" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-instagram"/></svg> Ver mais no Instagram</a>
+      </div>
+    </section>
+
+    <section class="section steps-section" aria-labelledby="stepsTitle">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Simples e rápido</p><h2 id="stepsTitle">Como funciona<br class="mobile-break"> o agendamento</h2></div>
+        <ol class="steps-grid">
+          <li><span class="step-number" aria-hidden="true">01</span><div><h3>Escolha o serviço</h3><p>Selecione o atendimento que deseja solicitar.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">02</span><div><h3>Escolha a data e o período</h3><p>Indique o melhor dia e escolha manhã ou tarde.</p></div></li>
+          <li><span class="step-number" aria-hidden="true">03</span><div><h3>Confirme o contato</h3><p>Combine a disponibilidade diretamente com a Michaele.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="agendamento" class="section booking-section" aria-labelledby="bookingTitle">
+      <div class="container booking-container">
+        <div class="section-heading"><p class="eyebrow">Seu momento de cuidado</p><h2 id="bookingTitle">Solicite seu horário</h2><p>Escolha o serviço, a data e o período. Continue pelo WhatsApp para combinar seu horário com a Michaele.</p></div>
+        <form id="bookingForm" class="booking-form">
+          <div class="field"><label for="servico">Qual cuidado você procura?</label><select id="servico" name="servico" required><option value="" disabled selected>Escolha o serviço</option><option>Design personalizado</option><option>Design com henna</option><option>Buço</option><option>Quero tirar uma dúvida</option></select></div>
+          <p id="serviceStatus" class="service-status" role="status" hidden></p>
+          <div class="field"><label for="nome">Seu nome</label><input id="nome" name="nome" type="text" autocomplete="name" required minlength="2" maxlength="80" placeholder="Como podemos chamar você?"></div>
+          <div class="field"><label for="telefone">Seu WhatsApp <span>(opcional)</span></label><input id="telefone" name="telefone" type="tel" autocomplete="tel" inputmode="tel" maxlength="22" placeholder="(85) 99999-9999"><small>Se quiser, deixe um número para retorno.</small></div>
+          <fieldset class="calendar-field"><legend>Qual dia fica melhor?</legend>
+            <div class="calendar-panel">
+              <div class="calendar-heading"><button id="prevMonth" class="icon-button" type="button" aria-label="Mês anterior"><svg class="icon chevron-left"><use href="#i-chevron"/></svg></button><p id="monthYear" aria-live="polite"></p><button id="nextMonth" class="icon-button" type="button" aria-label="Próximo mês"><svg class="icon"><use href="#i-chevron"/></svg></button></div>
+              <div class="calendar-week" aria-hidden="true"><span>D</span><span>S</span><span>T</span><span>Q</span><span>Q</span><span>S</span><span>S</span></div>
+              <div id="calendarDays" class="calendar-days" role="group" aria-label="Selecione uma data"></div>
+              <input type="hidden" id="dataSelecionada" name="data">
+              <p id="textoData" class="calendar-selection" aria-live="polite">Toque em um dia para selecionar.</p>
+            </div>
+          </fieldset>
+          <fieldset class="period-field"><legend>Você prefere de manhã ou à tarde?</legend>
+            <div class="period-options">
+              <label class="period-choice" for="periodoManha"><input type="radio" id="periodoManha" name="periodo" value="Manhã" required><span class="period-card"><svg class="icon" aria-hidden="true"><use href="#i-sun"/></svg><span>Manhã</span></span></label>
+              <label class="period-choice" for="periodoTarde"><input type="radio" id="periodoTarde" name="periodo" value="Tarde" required><span class="period-card"><svg class="icon" aria-hidden="true"><use href="#i-sunset"/></svg><span>Tarde</span></span></label>
+            </div>
+          </fieldset>
+          <p id="formError" class="form-error" role="alert" hidden></p>
+          <button id="submitBooking" class="button button-gold submit-button" type="submit"><svg class="icon"><use id="submitIcon" href="#i-message"/></svg><span id="submitText">Continuar no WhatsApp</span><svg class="icon"><use href="#i-arrow"/></svg></button>
+          <p class="booking-note" id="bookingNote">Você revisa a mensagem no WhatsApp antes de enviar. O horário depende de confirmação.</p>
+        </form>
+        <noscript><p class="noscript-note">Ative o JavaScript para usar o calendário ou <a href="https://wa.me/5585996879040">fale com a Michaele pelo WhatsApp</a>.</p></noscript>
+        <section id="requestPreview" class="request-preview" aria-labelledby="requestTitle" hidden>
+          <p class="eyebrow">Sua mensagem está pronta</p><h3 id="requestTitle" tabindex="-1">Vamos combinar seu horário?</h3><p>Copie a mensagem abaixo e envie pelo Direct da Michaele.</p>
+          <label class="sr-only" for="requestMessage">Mensagem de agendamento</label><textarea id="requestMessage" readonly rows="8"></textarea>
+          <button type="button" id="copyMessage" class="button button-gold"><svg class="icon"><use href="#i-copy"/></svg><span>Copiar mensagem</span></button>
+          <p id="copyStatus" class="copy-status" role="status"></p>
+          <a data-instagram href="https://www.instagram.com/_michaelealmeidadesigner_/" class="button button-outline" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-instagram"/></svg> Abrir Instagram <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-image"><img src="img/hero-desktop.webp" alt="Arte em preto e dourado com o olhar em destaque" width="1672" height="941" loading="lazy" decoding="async"></div>
+    <div class="container footer-content">
+      <img class="footer-logo" src="img/logo.webp" alt="Michaele Almeida Sobrancelhas" width="100" height="100" loading="lazy">
+      <p class="footer-appointment"><svg class="icon"><use href="#i-calendar"/></svg> Atendimento com hora marcada</p>
+      <a class="footer-instagram" data-instagram href="https://www.instagram.com/_michaelealmeidadesigner_/" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-instagram"/></svg><span>@_michaelealmeidadesigner_</span></a>
+      <p class="copyright">© <span id="currentYear">2026</span> Michaele Almeida. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <nav class="mobile-bar" aria-label="Acesso rápido">
+    <a class="quick-contact" id="quickContact" href="https://wa.me/5585996879040" target="_blank" rel="noopener noreferrer"><svg class="icon"><use id="quickContactIcon" href="#i-message"/></svg><span id="quickContactText">WhatsApp</span></a>
+    <a class="button button-gold" href="#agendamento"><svg class="icon"><use href="#i-calendar"/></svg> Agendar horário <svg class="icon"><use href="#i-arrow"/></svg></a>
+  </nav>
+
+  <dialog id="galleryDialog" class="lightbox" aria-labelledby="galleryCaption">
+    <div class="lightbox-toolbar"><p>Um olhar de perto</p><button class="icon-button" id="closeGallery" type="button" aria-label="Fechar foto ampliada"><svg class="icon"><use href="#i-close"/></svg></button></div>
+    <img id="galleryImage" alt="">
+    <div class="lightbox-bottom"><button class="icon-button" id="prevImage" type="button" aria-label="Foto anterior"><svg class="icon chevron-left"><use href="#i-chevron"/></svg></button><p id="galleryCaption" aria-live="polite"></p><button class="icon-button" id="nextImage" type="button" aria-label="Próxima foto"><svg class="icon"><use href="#i-chevron"/></svg></button></div>
+  </dialog>
+</body>
+</html>

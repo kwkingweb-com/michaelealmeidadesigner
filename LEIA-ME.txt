@@ -1,0 +1,60 @@
+MICHAELE ALMEIDA — SITE COM FOCO EM CELULAR
+
+COMO ABRIR
+Extraia todo o ZIP e abra index.html. Para hospedar, envie index.html,
+styles.css, script.js, config.js e a pasta img para a mesma pasta do servidor.
+Não precisa instalar programas, usar npm ou configurar banco de dados.
+
+CONTATO
+WhatsApp configurado: (85) 99687-9040.
+Número completo usado pelo site: 5585996879040.
+O botão fixo de contato abre esse WhatsApp. Ao finalizar o formulário, a
+cliente vai diretamente ao WhatsApp com nome, serviço, data e período na
+mensagem. Ela revisa e toca em Enviar no WhatsApp para concluir o contato.
+
+Para trocar o número futuramente, edite whatsapp em config.js, usando
+55 + DDD + número. Atualize também o link de contato e a alternativa sem
+JavaScript em index.html, que usam o mesmo número como referência estática.
+
+AGENDAMENTO
+A cliente escolhe um serviço, informa seu nome, seleciona a data desejada
+e marca obrigatoriamente Manhã ou Tarde. Nenhum período vem pré-selecionado.
+O telefone da cliente é opcional. O calendário bloqueia datas passadas.
+A solicitação abre diretamente o WhatsApp com a mensagem completa.
+As datas e os períodos representam preferências; este site não consulta
+uma agenda online nem confirma reservas. A profissional combina o horário
+exato durante a conversa.
+
+AJUSTES PARA CELULAR
+- Cards de serviços com imagem ao lado, descrição visível e atalho para agendar.
+- Cabeçalho compacto e menu com botão de fechar dentro da janela.
+- Barra inferior com contato e agendamento; recolhe ao entrar no formulário.
+- Calendário com sete colunas fluidas e campos adequados ao teclado do celular.
+- Galeria com toque para ampliar e gesto horizontal para trocar fotos.
+- Zoom do navegador permitido; navegação por teclado e movimento reduzido.
+- Mesmas fotos do projeto, convertidas para WebP; carregamento das fotos
+  inferiores conforme necessário. Miniaturas leves na página; fotos completas ao ampliar.
+- CSS, JavaScript e ícones locais. Somente as fontes Google são externas;
+  fontes alternativas do aparelho são usadas se elas não carregarem.
+
+ARQUIVOS
+index.html   Conteúdo e estrutura
+styles.css   Aparência, tamanhos e adaptação para celulares e computadores
+script.js    Menu, fotos, calendário e preparação da mensagem
+config.js    Contatos da profissional
+img/         Logo e fotos otimizadas em WebP
+
+SERVIÇOS CONFIRMADOS
+Design personalizado, design com henna e buço. Os mesmos nomes aparecem
+nos cards e nas opções de agendamento. Cílios não é anunciado como serviço.
+
+IMAGENS DESTA ATUALIZAÇÃO
+Banners enviados pelo cliente: img/hero-desktop.webp e img/hero-mobile.webp.
+A galeria reúne dez fotos de sobrancelhas fornecidas, com quatro visíveis
+inicialmente e um botão para revelar as demais. As versões completas em
+img/trabalhos são preservadas para a ampliação. O serviço de buço usa uma
+ilustração vetorial, pois não foi fornecida uma foto específica desse serviço.
+A foto de aplicação de cílios não foi usada para ilustrar os serviços confirmados.
+
+Os contatos e a identidade visual foram mantidos a partir do projeto fornecido.
+Endereço, horários de funcionamento e preços não foram acrescentados sem dados.
